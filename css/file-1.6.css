@@ -1,0 +1,9 @@
+#div-1 {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 150px;
+  padding-bottom: 200px;
+}
+#div-2 {
+  padding: 50px 100x 150px 200px;
+}
