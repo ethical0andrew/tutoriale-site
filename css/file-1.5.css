@@ -1,0 +1,9 @@
+.div-1 {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 150px;
+  margin-bottom: 200px;
+}
+.div-2 {
+  margin: 50px 100x 150px 200px;
+}
