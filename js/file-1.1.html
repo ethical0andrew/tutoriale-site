@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tutorial</title>
+</head>
+<body>
+	<div id="main">Text Vechi</div>
+  <!--- Codul JS trebuie adaugat dupa elementul
+pe care dorim sa il modificam, in caz contrat
+aplicatia nu va functia.
+  --->
+  <script src="main.js"></script>
+  <!--- Putem conecta fisierul folosind proprietate
+src="nume fisier.extensie" a etichetei <script>, sau
+direct din interiorul acesteia.
+--->
+  <script>
+    document.getElementById("main").innerHTML = "Text Nou";
+  </script>
+</body>
+</html>
