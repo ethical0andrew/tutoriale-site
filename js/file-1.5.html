@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tutorial</title>
+</head>
+<body>
+	<style>
+		.text {
+			background-color: blue;
+		}
+	</style>
+	<p id="text">Text Vechi</p>
+	<button onclick="SetareProprietatiNoi()">Seteaza proprietati noi</button>
+	<script>
+		function SetareProprietatiNoi() {
+			document.getElementById("text").setAttribute("class", "text");
+		}
+	</script>
+</body>
+</html>
