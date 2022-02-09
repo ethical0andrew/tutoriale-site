@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tutorial</title>
+</head>
+<body>
+	<p onmousedown="mousedown()" onmouseup="mouseup()" id="text">Text</p>
+	<script>
+		const element = document.getElementById("text");
+		// seteaza culoarea fundalului pe albastru daca mouse ul apasa elementul
+		function mousedown() {
+			element.style.backgroundColor = "blue";
+		} // seteaza culoare fundalului pe rosu daca mouse ul nu mai apasa elementul
+		function mouseup() {
+			element.style.backgroundColor = "red";
+		}
+	</script>
+</body>
+</html>
