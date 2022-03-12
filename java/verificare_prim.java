@@ -1,5 +1,7 @@
 import java.util.Scanner;
 class HelloWorld {
+    // afiseaza 0 daca a nu este nr prim
+    // afiseaza 1 daca a este nr prim
     public static int verificare_prim(int a) {
         if (a < 2) return 0;
         if (a == 2) return 1;
