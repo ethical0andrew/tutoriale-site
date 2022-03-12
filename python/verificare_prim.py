@@ -1,3 +1,5 @@
+# afiseaza 0 daca a nu este nr prim
+# afiseaza 1 daca a este nr prim
 def verificare_prim(a):
     if a < 2:
        return 0
