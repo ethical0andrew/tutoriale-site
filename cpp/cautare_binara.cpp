@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-// intrare: n = 5, v = [7 2 6 9 5], numarcautat = 9
-// iesire: Numarul cautat apare in sir pe pozitia 4
 int main() {
+    // intrare: n = 5, v = [2 3 4 7 9], numarcautat = 7
+    // iesire: Numarul cautat apare in sir pe pozitia 4
     int n, v[1001], numarcautat; cin >> n;
     for (int i = 1; i <= n; ++i)
         cin >> v[i];
