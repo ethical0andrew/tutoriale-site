@@ -24,7 +24,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creare utilizator</title>
+    <title>Actualizare utilizator</title>
 </head>
 <body style="text-align: center;">
     <a href="index.php">Inapoi acasa</a>
