@@ -15,7 +15,7 @@
 <body style="text-align: center;">
     <a href="creare.php">Creare utilizator</a><br>
     <?php while ($i = mysqli_fetch_assoc($query)) { ?>
-    <p>Utilizatorul <?php echo $i['id'];?>: <a href="citire.php?id=<?php echo $i['id'];?>">citire</a> / <a href="actualizare.php?id=<?php echo $i['id'];?>">actualizare</a><p>
+    <p>Utilizatorul <?php echo $i['id'];?>: <a href="citire.php?id=<?php echo $i['id'];?>">citire</a> / <a href="actualizare.php?id=<?php echo $i['id'];?>">actualizare</a> / <a href="stergere.php?id=<?php echo $i['id'];?>">stergere</a><p>
     <?php } ?>
 </body>
 </html>
