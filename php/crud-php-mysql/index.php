@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplicatie CRUD</title>
 </head>
-<body>
+<body style="text-align: center;">
     <a href="creare.php">Creare utilizator</a><br>
     <?php while ($i = mysqli_fetch_assoc($query)) { ?>
     <a href="citire.php?id=<?php echo $i['id'];?>">
